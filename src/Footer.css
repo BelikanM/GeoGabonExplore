@@ -1,0 +1,33 @@
+/* Footer.css */
+.footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.footer-navigation ul li {
+  margin: 0 15px;
+}
+
+.footer-navigation ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-navigation ul li a:hover {
+  color: #61dafb;
+}
+
